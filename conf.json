@@ -1,0 +1,6 @@
+{
+	"user": "yfzhang@relay01.hillinsight.com" ,
+	"ignore": ["web", ".git", "node_modules", ".idea"],
+	"local_path": "biz_map",
+	"server_path": "/home/yfzhang/biz_map"
+}
