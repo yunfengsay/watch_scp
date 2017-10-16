@@ -56,7 +56,6 @@ func isIn(str string, array []string) bool {
 
 //监控目录
 func (w *Watch) watchDir(dir string, ignores []string, user string) {
-	//通过Walk来遍历目录下的所有子目录
 	filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		//这里判断是否为目录，只需监控目录即可
 		//目录下的文件也在监控范围内，不需要一个一个加
